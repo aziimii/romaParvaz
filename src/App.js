@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-
+import {Greeter} from "romaparvaz_npm_package"
 function App() {
-  return (
+   console.log(Greeter("Ali"))
+    return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+       
       </header>
     </div>
   );
